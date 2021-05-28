@@ -1,1 +1,1 @@
-web: gunicorn dashboardtelangana.py:server
+web: gunicorn dashboardtelangana:server
