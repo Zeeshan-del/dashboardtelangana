@@ -9,7 +9,7 @@ import plotly.express as px
 import numpy as np
 
 gc = gspread.service_account(filename='/Users/Zeeshan/PycharmProjects/DashProjects/credentials.json')
-sh = gc.open_by_key('1lS8M-wzWsBZke27JfBnTuZM--t7Lwvyg8hUqmk2L_aA')
+sh = gc.open_by_key('1UzKPiujJH97PLV7R4h4orp6ZeUPG8-W2vncsu1TunSA')
 worksheet = sh.get_worksheet(0)
 
 
