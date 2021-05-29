@@ -11,7 +11,7 @@ import base64
 
 import numpy as np
 
-gc = gspread.service_account(filename='/Users/Zeeshan/PycharmProjects/DashProjects/credentials.json')
+gc = gspread.service_account(filename='credentials.json')
 sh = gc.open_by_key('1UzKPiujJH97PLV7R4h4orp6ZeUPG8-W2vncsu1TunSA')
 worksheet = sh.get_worksheet(0)
 df = pd.DataFrame(worksheet.get_all_records())
